@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Ubuntu:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    width: 100%;
+    background-color: #ffffff;
+
+}
+
+.container_dos {
+    background-color: #eeeeee;
+}
+
+.fa-home {
+    font-size: 1.2em;
+}
+
+.navbar,
+.navbar_dos {
+    width: 65%;
+    margin: auto;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    border-left: 1px solid black;
+    padding: 0.5rem 1.3rem;
+}
+
+.navbar ul li:first-child {
+    border-left: none;
+}
+
+.navbar ul li,
+.navbar_dos ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 1.1rem;
+    padding: 0.3em 1.2em;
+    /* margin: 0 5px; */
+}
+
+.navbar ul li a,
+.navbar_dos ul li a {
+    text-transform: uppercase;
+    color: #4a4740;
+}
+
+.navbar_dos {
+    background-color: #eeeeee;
+}
+
+.ico-house {
+    color: red;
+}
+
+/*
+ * ─── SECTION ────────────────────────────────────────────────────────────────────
+ */
+
+.contenedor {
+    background-image: linear-gradient(rgba(0.25, 0.25, 0.25, 0.25), rgba(0.65, 0.65, 0.65, 0.65)), url(imagenes/01.jpg);
+    background-repeat: no-repeat;
+    height: 89vh;
+    background-size: cover;
+}
+
+.contenedor_text {
+    width: 65%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.contenedor_text h1 {
+    font-family: 'Bree Serif', serif;
+    font-size: 3em;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.contenedor_text p {
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+}
+
+.boton {
+    display: flex;
+    flex-direction: row;
+}
+
+.boton button {
+    margin: 20px 10px;
+    color: #fff;
+}
+
+.boton button:first-child {
+    background-color: red;
+    padding: 15px;
+    border: none;
+}
+
+.boton button:last-child {
+    padding: 15px;
+    background: none;
+    border: 1px solid #fff;
+}
+
+/*
+ * ─── TELLUS ─────────────────────────────────────────────────────────────────────
+ */
+
+.tellus {
+    width: 65%;
+    margin: auto;
+    background-color: #ffffff;
+    font-size: 1.5em;
+    border-radius: 0.6em;
+    padding: 2em;
+    margin-top: -75px;
+}
+
+.tellus_text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 4.4em;
+    margin-top: -4em;
+}
+
+.tellus_article {
+    display: flex;
+    /* padding: 2em; */
+}
+
+h3:first-child {
+    font-style: italic;
+    color: #3f484f;
+    font-weight: normal;
+}
+
+h3:last-child {
+    color: #3f484f;
+    font-weight: normal;
+}
+
+h4 {
+    color: red;
+    font-style: italic;
+}
+
+article {
+    display: flex;
+}
+
+.hojas {
+    font-size: 4em;
+    padding: 0.5em;
+    color: #c9c9c9;
+}
+
+.article_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.boton2 {
+    padding: 5em;
+}
+
+.boton2 button {
+    background-color: red;
+    padding: 15px;
+    border: none;
+    margin: 20px 10px;
+    color: #fff;
+    display: flex;
+    margin: auto;
+}
+
+/*
+ * ─── BICICLETAS ───────────────────────────────────────────────────────────────────────
+ */
+
+.bicicleta_article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.bicicleta_article h4 {
+    color: black;
+}
+
+
+.bicicleta_column {
+    flex-direction: column;
+}
+
+.bicicleta .tellus_text {
+    margin-top: 0em;
+}
+
+.fondodos {
+    background-image: linear-gradient(rgba(0.25, 0.25, 0.25, 0.25), rgba(0.65, 0.65, 0.65, 0.65)), url(imagenes/02.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.fondodos_width {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    align-items: center;
+    margin: auto;
+    padding: 2em;
+}
+
+h2 {
+    font-size: 2.2em;
+    color: #fff;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.boton3 button {
+    background-color: red;
+    padding: 15px;
+    border: none;
+    color: #fff;
+}
+
+.participantes {
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+.participantes_width {
+    width: 65%;
+    margin: auto;
+    font-size: 1.5em;
+    padding: 2em;
+}
+
+.participantes_row {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+}
+
+.participantes_row img {
+    border-radius: 150px;
+}
+
+.participantes_caja {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.participantes_caja p {
+    padding: 1.3em;
+    background-color: #fff;
+    border-radius: 0.4em;
+}
+
+.participantes_width article {
+    justify-content: space-between;
+}
+
+.participantes_row_column {
+    flex-direction: column;
+    padding: 0.4em;
+}
+
+.participantes_row_column h3 {
+    font-weight: bold;
+    padding: 0;
+}
+
+.participantes_row_column p {
+    background: none;
+    padding: 0;
+}
+
+.joeee {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*
+ * ─── CASCOS ─────────────────────────────────────────────────────────────────────
+ */
+
+.cascos_width {
+    width: 65%;
+    margin: auto;
+    font-size: 1.5em;
+    padding: 2em;
+}
+
+.cascos_img {
+    text-align: center;
+    /* display: flex;
+    justify-content: space-between;
+    margin: 0 auto; */
+}
+
+/*
+ * ─── FOOTER ─────────────────────────────────────────────────────────────────────
+ */
+
+footer {
+    background-color: black;
+}
+
+.footer_contenedor {
+    width: 65%;
+    display: flex;
+    margin: auto;
+    padding: 3em;
+    color: #fff;
+    flex-direction: row;
+    font-size: 1.2em;
+}
+
+.footer_contenedor h5 {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.footer_contenedor article {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    width: 20%;
+    flex-grow: 1;
+}
+
+.contenedor_article {
+    display: flex;
+	padding: 1em 0;
+	font-size: 1.3em;
+	color:#C8D2CA;
+}
+.contenedor_domain{
+	text-align: center;
+	font-size: 1.3em;
+	padding: 1.3em;
+	color:#C8D2CA;
+}
+.cuadrooos {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.contenedor_cuadros{
+	display: flex;
+	height: 3.5em;
+	background-color: #e9f0eb;
+	width: 3.5em;
+
+}
+
+.ico_map,
+.ico_phone {
+    padding: 0 0.6em 1em 0;
+    font-size: 1.5em;
+}
+.footer_padding p{
+	padding: 1.2em 0;
+	color:red;
+	font-size: 1.3em;
+}
+input{
+	height: 1.4em;
+	padding: 0.5em;
+	margin-bottom:1em;
+}
+.footer_padding button {
+	padding: 0.7em;
+	width: 50%;
+	color: #fff;
+	background-color: red;
+	border:none;
+	font-weight: bold;
+}
+.footer_p_white p{
+	color:#C8D2CA;
+}
+.copyright_bg{
+	background-color: rgba(158, 158, 158, 0.027);
+	
+}
+.copyright{
+	color:#848684;
+	width: 65%;
+	display: flex;
+	margin: auto;
+	font-size: 1.5em;
+	padding: 2em;
+	justify-content: space-between;
+	text-align: center;
+}
